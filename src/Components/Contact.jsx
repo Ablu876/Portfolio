@@ -42,7 +42,7 @@ function Contact() {
           >
             <h1 className="text-xl font-semibold mb-4">Send Your Message</h1>
             <div className="flex flex-col mb-4">
-              <label className="block text-gray-700">FullName</label>
+              <label className="block text-gray-700">Full Name</label>
               <input
                 {...register("name", { required: true })}
                 className="shadow rounded-lg appearance-none border  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -61,7 +61,7 @@ function Contact() {
                 id="email"
                 name="email"
                 type="text"
-                placeholder="Enter your E-Mail address"
+                placeholder="Enter your E-Mail Address"
               />
               {errors.email && <span>This field is required</span>}
             </div>

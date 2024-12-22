@@ -3,60 +3,72 @@ import React from 'react';
 function Skills() {
   return (
     <>
-    <div
-      id="skills" // Added id for smooth scrolling
-      name="Skills"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-28"
-    >
-      <h1 className="text-4xl font-bold text-left mb-12">Skills</h1> {/* Title aligned to the left */}
+      <div
+        id="skills"
+        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-28"
+        aria-label="Skills Section"
+      >
+        <h1 className="text-4xl font-medium text-left mb-12">Skills</h1> {/* Reduced boldness */}
 
-      <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10">
+        <div className="flex flex-col md:flex-row gap-10">
+          {/* Left Column */}
+          <div className="md:w-1/2 space-y-8 text-justify">
+            <section aria-labelledby="programming-skills">
+              <h2 id="programming-skills" className="text-2xl font-medium">🚀 Programming & Scripting</h2>
+              <ul role="list" className="list-disc list-inside">
+                <li><span className="font-medium">Python:</span> Proficient in Data Science, Machine Learning, and Automation.</li>
+                <li><span className="font-medium">R:</span> Experienced in statistical analysis and predictive modeling.</li>
+                <li><span className="font-medium">HTML, CSS, JavaScript:</span> Skilled in building responsive web pages.</li>
+              </ul>
+            </section>
 
-        <div className="md:w-1/2 space-y-6 text-justify">
-          <h2 className="text-2xl font-semibold">🚀 Programming & Scripting</h2>
-          <ul className="list-disc list-inside">
-            <li><strong>Python:</strong> Proficient in Python for Data Science, Machine Learning, and Automation tasks.</li>
-            <li><strong>R:</strong> Experienced in statistical analysis and predictive modeling using R.</li>
-            <li><strong>HTML, CSS, JavaScript:</strong> Skilled in front-end development for building responsive web pages.</li>
-          </ul>
+            <section aria-labelledby="web-development">
+              <h2 id="web-development" className="text-2xl font-medium">🌐 Web Development</h2>
+              <ul role="list" className="list-disc list-inside">
+                <li><span className="font-medium">Frontend:</span> Expertise in creating user-friendly, responsive web interfaces.</li>
+                <li><span className="font-medium">Version Control:</span> Experienced with Git and GitHub for collaboration.</li>
+              </ul>
+            </section>
 
-          <h2 className="text-2xl font-semibold mt-8">🌐 Web Development</h2>
-          <ul className="list-disc list-inside">
-            <li><strong>HTML, CSS, JavaScript:</strong> Proficient in creating responsive, user-friendly web pages.</li>
-            <li><strong>GitHub:</strong> Experience with version control to manage code and collaborate on projects.</li>
-          </ul>
+            <section aria-labelledby="database-skills">
+              <h2 id="database-skills" className="text-2xl font-medium">🗄️ Database Skills</h2>
+              <ul role="list" className="list-disc list-inside">
+                <li><span className="font-medium">SQL & MySQL:</span> Skilled in designing and managing relational databases.</li>
+              </ul>
+            </section>
+          </div>
 
-          <h2 className="text-2xl font-semibold mt-8">🗄️ Database Skills</h2>
-          <ul className="list-disc list-inside">
-            <li><strong>SQL:</strong> Skilled in database design, querying, and data manipulation.</li>
-            <li><strong>MySQL:</strong> Experience working with MySQL for relational database management.</li>
-          </ul>
-        </div>
+          {/* Right Column */}
+          <div className="md:w-1/2 space-y-8">
+            <section aria-labelledby="data-science">
+              <h2 id="data-science" className="text-2xl font-medium">🤖 Data Science & Machine Learning</h2>
+              <ul role="list" className="list-disc list-inside">
+                <li><span className="font-medium">Machine Learning:</span> Proficient in Regression, Classification, Clustering, and Neural Networks.</li>
+                <li><span className="font-medium">Data Analysis:</span> Expertise in Pandas, NumPy, and SciPy for data manipulation.</li>
+                <li><span className="font-medium">Visualization:</span> Skilled in creating visual insights using Matplotlib, Seaborn, and Tableau.</li>
+              </ul>
+            </section>
 
-        <div className="md:w-1/2 space-y-6">
-          <h2 className="text-2xl font-semibold">🤖 Data Science & Machine Learning</h2>
-          <ul className="list-disc list-inside">
-            <li><strong>Machine Learning:</strong> Expertise in Regression, Classification, Clustering, and Neural Networks.</li>
-            <li><strong>Data Analysis:</strong> Strong command of data manipulation using Pandas, NumPy, and SciPy.</li>
-            <li><strong>Data Visualization:</strong> Ability to create insightful visualizations using Matplotlib, Seaborn, and Tableau.</li>
-          </ul>
+            <section aria-labelledby="cloud-computing">
+              <h2 id="cloud-computing" className="text-2xl font-medium">☁️ Cloud Computing</h2>
+              <ul role="list" className="list-disc list-inside">
+                <li><span className="font-medium">AWS:</span> Experience with cloud computing and deployments.</li>
+                <li><span className="font-medium">Linux:</span> Proficient in server management and shell scripting.</li>
+              </ul>
+            </section>
 
-          <h2 className="text-2xl font-semibold mt-8">☁️ Cloud Computing</h2>
-          <ul className="list-disc list-inside">
-            <li><strong>AWS:</strong> Experience with Amazon Web Services for cloud computing and deployment.</li>
-            <li><strong>Linux:</strong> Skilled in Linux for server management, shell scripting, and command-line tools.</li>
-          </ul>
-
-          <h2 className="text-2xl font-semibold mt-8">🎨 UI/UX Design</h2>
-          <ul className="list-disc list-inside">
-            <li><strong>UI Design Principles:</strong> Knowledge of wireframing, prototyping, and creating user flows for better user experience.</li>
-            <li><strong>UX Research & Testing:</strong> Ability to conduct usability testing and analyze user behavior for better design decisions.</li>
-            <li><strong>Design Tools:</strong> Experience with Figma and Adobe XD.</li> {/* Updated to match usage */}
-          </ul>
+            <section aria-labelledby="ui-ux">
+              <h2 id="ui-ux" className="text-2xl font-medium">🎨 UI/UX Design</h2>
+              <ul role="list" className="list-disc list-inside">
+                <li><span className="font-medium">Design Principles:</span> Expertise in wireframing and prototyping for user-centric designs.</li>
+                <li><span className="font-medium">Research & Testing:</span> Conducting usability tests and analyzing user behavior.</li>
+                <li><span className="font-medium">Tools:</span> Proficient in Figma and Adobe XD.</li>
+              </ul>
+            </section>
+          </div>
         </div>
       </div>
-    </div>
-    <hr />
+      <hr />
     </>
   );
 }

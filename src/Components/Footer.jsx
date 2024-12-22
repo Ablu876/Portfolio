@@ -50,16 +50,6 @@ function Footer() {
               >
               <FaWhatsapp size={24} />
               </a>
-
-              <a
-                href="https://x.com/yourxhandle"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="X"
-                className="hover:text-black"
-              >
-                <SiX size={24} />
-              </a>
             </div>
             <div className="mt-8 border-t border-gray-700 pt-8 flex flex-col items-center">
               <p className="text-sm">

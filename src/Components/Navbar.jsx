@@ -73,7 +73,7 @@ function Navbar() {
             <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:scale-105 duration-200 font-semibold cursor-pointer"
+                  className="hover:scale-105 duration-200 cursor-pointer"
                   key={id}
                 >
                   <Link
