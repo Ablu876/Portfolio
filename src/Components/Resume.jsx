@@ -15,7 +15,7 @@ function Resume() {
         <div className="md:w-1/2 space-y-6">
           <h2 className="text-2xl font-semibold">📄 About Me</h2>
           <p className='text-justify'>
-            I am a recent graduate with a strong academic foundation in Mechanical Enginnering and a keen interest in Data Science. 
+            I am a recent graduate with a strong academic foundation in Mechanical Engineering and a keen interest in Data Science. 
             Skilled in Python, R, and Machine Learning, I have completed academic projects focused on data analysis and 
             visualization, demonstrating my ability to uncover insights and solve real-world problems. I am eager to contribute 
             to a dynamic organization, grow my skills, and make a meaningful impact as I embark on my professional journey.
@@ -35,6 +35,7 @@ function Resume() {
               )
             }
             className="bg-gradient-to-r from-green-500 to-blue-500 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-md hover:scale-105 transform transition duration-300"
+            aria-label="View my resume"
           >
             View Resume
           </button>

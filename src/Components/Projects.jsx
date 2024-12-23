@@ -78,7 +78,6 @@ function Projects() {
           </div>
         ))}
       </div>
-        <hr  />
     </div>
   );
 }

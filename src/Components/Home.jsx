@@ -37,7 +37,7 @@ function Home() {
 
             <br />
             <p className="text-sm md:text-md text-justify">
-            I am skilled in Python, R, and SQL for data analysis and machine learning,
+            I am skilled in Python, R-Language, and SQL for data analysis and machine learning,
               with expertise in data visualization using Tableau and Matplotlib. 
               I also have experience in web development with HTML and CSS, 
               along with knowledge of AWS and GitHub for version control.

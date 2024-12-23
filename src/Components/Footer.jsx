@@ -42,13 +42,13 @@ function Footer() {
                 <FaTelegramPlane size={24} />
               </a>
               <a
-              href="https://wa.me/+916300773422?text=Hi,%20I%20am%20a%20fresher%20actively%20seeking%20job%20opportunities.%20I%20would%20love%20to%20connect%20and%20discuss%20any%20open%20roles%20you%20might%20have.%20Thank%20you!"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="WhatsApp"
-              className="hover:text-green-500"
+                href="https://wa.me/+916300773422?text=Hi,%20I'm%20Shaik%20Ablu%20Hussain,%20a%20fresher%20looking%20for%20jobs%20or%20freelance%20projects%20in%20data%20science%20and%20web%20development.%20Let's%20connect!"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                className="hover:text-green-500"
               >
-              <FaWhatsapp size={24} />
+                <FaWhatsapp size={24} />
               </a>
             </div>
             <div className="mt-8 border-t border-gray-700 pt-8 flex flex-col items-center">
