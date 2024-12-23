@@ -16,7 +16,7 @@ function Resume() {
           <h2 className="text-2xl font-semibold">📄 About Me</h2>
           <p className='text-justify'>
             I am a recent graduate with a strong academic foundation in Mechanical Engineering and a keen interest in Data Science. 
-            Skilled in Python, R, and Machine Learning, I have completed academic projects focused on data analysis and 
+            Skilled in Python, R-Porgramming Language, and Machine Learning, I have completed academic projects focused on data analysis and 
             visualization, demonstrating my ability to uncover insights and solve real-world problems. I am eager to contribute 
             to a dynamic organization, grow my skills, and make a meaningful impact as I embark on my professional journey.
           </p>

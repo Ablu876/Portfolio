@@ -21,7 +21,7 @@ function Projects() {
       logo: "/E-Commers Store.jpg",
       name: "E-Commerce Store",
       description: "A fully functional e-commerce store with product management and cart features.",
-      github: "https://github.com/Ablu876/E-Commerce-Stor",
+      github: "https://github.com/Ablu876/E-Commerce-Store",
     },
     {
       id: 4,

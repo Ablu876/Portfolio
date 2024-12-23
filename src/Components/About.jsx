@@ -12,7 +12,7 @@ function About() {
           <p className="text-justify">
             Hello, I am Shaik Ablu Hussain, an aspiring{" "}
             <span className="whitespace-nowrap">Data Scientist</span> and Web Developer
-            skilled in Python, R, machine learning, HTML, and CSS. I enjoy solving problems through
+            skilled in Python, R-Programming Language, machine learning, HTML, and CSS. I enjoy solving problems through
             data analysis, visualization, and creating user-friendly web solutions, with experience in
             customer analytics, predictive modeling, and web technologies.
           </p>

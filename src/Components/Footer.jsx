@@ -4,8 +4,7 @@ import {
   FaGithub,
   FaTelegramPlane,
   FaWhatsapp,
-} from "react-icons/fa";
-import { SiX } from "react-icons/si"; // Importing the 'X' icon from react-icons
+} from "react-icons/fa"; // Importing icons for LinkedIn, GitHub, Telegram, WhatsApp
 
 function Footer() {
   return (
@@ -20,17 +19,18 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
+                className="hover:text-blue-600"
               >
-                <FaLinkedinIn size={24} />
+                <FaLinkedinIn size={24} className="fill-current text-gray-800 hover:text-blue-600" />
               </a>
               <a
                 href="https://github.com/Ablu876"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
-                className="hover:text-gray-700"
+                className="hover:text-gray-600"
               >
-                <FaGithub size={24} />
+                <FaGithub size={24} className="fill-current text-gray-800 hover:text-gray-600" />
               </a>
               <a
                 href="https://t.me/Shaik143256/"
@@ -39,7 +39,7 @@ function Footer() {
                 aria-label="Telegram"
                 className="hover:text-blue-500"
               >
-                <FaTelegramPlane size={24} />
+                <FaTelegramPlane size={24} className="fill-current text-gray-800 hover:text-blue-500" />
               </a>
               <a
                 href="https://wa.me/+916300773422?text=Hi,%20I'm%20Shaik%20Ablu%20Hussain,%20a%20fresher%20looking%20for%20jobs%20or%20freelance%20projects%20in%20data%20science%20and%20web%20development.%20Let's%20connect!"
@@ -48,7 +48,7 @@ function Footer() {
                 aria-label="WhatsApp"
                 className="hover:text-green-500"
               >
-                <FaWhatsapp size={24} />
+                <FaWhatsapp size={24} className="fill-current text-gray-800 hover:text-green-500" />
               </a>
             </div>
             <div className="mt-8 border-t border-gray-700 pt-8 flex flex-col items-center">

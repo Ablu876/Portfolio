@@ -50,17 +50,17 @@ function Home() {
                 <ul className="flex space-x-5">
                   <li>
                     <a href="https://www.linkedin.com/in/shaik-ablu-hussain-17b052189" target="_blank" rel="noopener noreferrer">
-                      <FaLinkedin className="text-2xl cursor-pointer" />
+                      <FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600 active:text-blue-500 hover:scale-110 active:scale-105 transition-all duration-300" />
                     </a>
                   </li>
                   <li>
                     <a href="https://github.com/Ablu876" target="_blank" rel="noopener noreferrer">
-                      <FaGithub className="text-2xl cursor-pointer" />
+                      <FaGithub className="text-2xl cursor-pointer hover:text-gray-800 active:text-gray-600 hover:scale-110 active:scale-105 transition-all duration-300" />
                     </a>
                   </li>
                   <li>
                     <a href="https://t.me/Shaik143256/" target="_blank" rel="noopener noreferrer">
-                      <FaTelegram className="text-2xl cursor-pointer" />
+                      <FaTelegram className="text-2xl cursor-pointer hover:text-blue-500 active:text-blue-400 hover:scale-110 active:scale-105 transition-all duration-300" />
                     </a>
                   </li>
                 </ul>
@@ -68,10 +68,10 @@ function Home() {
               <div className="space-y-2">
                 <h1 className="font-bold text-center">Currently working on</h1>
                 <div className="flex space-x-5">
-                  <FaReact className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <FaFigma className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <SiMysql className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <FaAws className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <FaReact className="text-2xl md:text-3xl hover:text-blue-500 hover:scale-110 duration-200 rounded-full border-[2px] border-transparent hover:border-blue-500 active:text-blue-400 active:scale-105 cursor-pointer transition-all duration-300" />
+                  <FaFigma className="text-2xl md:text-3xl hover:text-indigo-500 hover:scale-110 duration-200 rounded-full border-[2px] border-transparent hover:border-indigo-500 active:text-indigo-400 active:scale-105 cursor-pointer transition-all duration-300" />
+                  <SiMysql className="text-2xl md:text-3xl hover:text-orange-500 hover:scale-110 duration-200 rounded-full border-[2px] border-transparent hover:border-orange-500 active:text-orange-400 active:scale-105 cursor-pointer transition-all duration-300" />
+                  <FaAws className="text-2xl md:text-3xl hover:text-yellow-500 hover:scale-110 duration-200 rounded-full border-[2px] border-transparent hover:border-yellow-500 active:text-yellow-400 active:scale-105 cursor-pointer transition-all duration-300" />
                 </div>
               </div>
             </div>
@@ -80,7 +80,7 @@ function Home() {
             <img
               src={image}
               className="rounded-full md:w-[450px] md:h-[450px]"
-              alt=""
+              alt="My photo"
             />
           </div>
         </div>
