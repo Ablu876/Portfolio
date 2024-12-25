@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function Projects() {
   const cardItem = [
@@ -33,6 +33,7 @@ function Projects() {
   ];
 
   return (
+    <>
     <div
       id="projects" // Added id for smooth scrolling
       name="Projects"
@@ -72,13 +73,16 @@ function Projects() {
                 rel="noopener noreferrer"
                 className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded mt-3"
               >
-                Source Code
+                View my Work
               </a>
             </div>
           </div>
         ))}
       </div>
     </div>
+    <br />
+    <hr />
+    </>
   );
 }
 

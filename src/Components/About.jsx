@@ -105,13 +105,6 @@ function About() {
             </div>
           </div>
           <br />
-          <h1 className="text-green-600 font-semibold text-xl">Mission Statement</h1>
-          <p className="text-justify">
-            My mission is to combine data science and web development skills to
-            create impactful solutions. I aim to uncover insights with machine learning and
-            analytics while building user-friendly, responsive web applications that solve
-            real-world problems and drive success.
-          </p>
         </div>
       </div>
       <hr />
